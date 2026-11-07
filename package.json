@@ -1,0 +1,16 @@
+{
+  "name": "collegefinder-saas",
+  "version": "1.0.0",
+  "description": "COLLEGEFINDER – SaaS-Based College Discovery Platform for Telangana B.Tech Institutions",
+  "scripts": {
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend dev",
+    "seed": "npm --prefix backend run seed",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": ["mern", "saas", "college-finder", "telangana", "btech", "vignan-vgnt"],
+  "author": "",
+  "license": "ISC"
+}
+
