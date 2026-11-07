@@ -1,0 +1,121 @@
+.profile-manager-header {
+  margin-bottom: 2rem;
+}
+
+.profile-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.profile-subtitle {
+  font-size: 0.9375rem;
+  color: var(--gray-500);
+}
+
+.profile-alert-banner {
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.alert-success {
+  background-color: var(--success-50);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  color: var(--success-700);
+}
+
+.alert-error {
+  background-color: var(--danger-50);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: var(--danger-700);
+}
+
+.profile-form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-section-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.form-row-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.facilities-checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.facility-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--gray-50);
+  border: 1px solid var(--gray-200);
+}
+
+.facility-checkbox-label:hover {
+  background-color: var(--primary-50);
+}
+
+.profile-save-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 0;
+}
+
+.btn-save-college-profile {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 2rem;
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: all 0.2s ease;
+}
+
+.btn-save-college-profile:hover {
+  background: linear-gradient(135deg, var(--primary-700), var(--primary-800));
+  transform: translateY(-1px);
+}
+
+.profile-loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+

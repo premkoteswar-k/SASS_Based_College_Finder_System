@@ -1,0 +1,137 @@
+.sidebar-container {
+  width: 260px;
+  background-color: #ffffff;
+  border-right: 1px solid var(--gray-200);
+  min-height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  flex-shrink: 0;
+}
+
+.sidebar-header {
+  padding: 0 0.5rem 1.25rem 0.5rem;
+  border-bottom: 1px solid var(--gray-100);
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-badge {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary-700);
+  background-color: var(--primary-50);
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  display: inline-block;
+}
+
+.sidebar-college-name {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-top: 0.65rem;
+  line-height: 1.35;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex-grow: 1;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-600);
+  border-radius: var(--radius-md);
+  transition: all 0.15s ease;
+}
+
+.sidebar-link-icon {
+  color: var(--gray-400);
+  transition: color 0.15s ease;
+}
+
+.sidebar-link:hover {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+}
+
+.sidebar-link:hover .sidebar-link-icon {
+  color: var(--gray-700);
+}
+
+.sidebar-link-active {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+  font-weight: 600;
+}
+
+.sidebar-link-active .sidebar-link-icon {
+  color: var(--primary-600);
+}
+
+.sidebar-footer {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--gray-100);
+}
+
+.sidebar-user-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  background-color: var(--gray-50);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gray-200);
+}
+
+.user-avatar-small {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-800));
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.sidebar-user-info {
+  overflow: hidden;
+}
+
+.sidebar-user-name {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar-user-role {
+  font-size: 0.6875rem;
+  color: var(--gray-500);
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+    min-height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--gray-200);
+  }
+}
+

@@ -1,0 +1,207 @@
+.users-manager-header {
+  margin-bottom: 2rem;
+}
+
+.users-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.users-subtitle {
+  font-size: 0.9375rem;
+  color: var(--gray-500);
+}
+
+.users-controls-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.85rem;
+  color: var(--gray-400);
+}
+
+.users-search-input {
+  width: 100%;
+  padding: 0.65rem 0.85rem 0.65rem 2.4rem;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.users-search-input:focus {
+  border-color: var(--primary-500);
+}
+
+.role-filter-pills {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.role-pill-btn {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  transition: all 0.15s ease;
+}
+
+.role-pill-btn:hover {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+}
+
+.role-pill-active {
+  background-color: var(--primary-600);
+  color: #ffffff;
+  border-color: var(--primary-600);
+}
+
+.role-pill-active:hover {
+  background-color: var(--primary-700);
+  color: #ffffff;
+}
+
+/* Card */
+.users-card-wrap {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.users-admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.users-admin-table th {
+  background-color: var(--gray-50);
+  padding: 0.85rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gray-500);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.users-admin-table td {
+  padding: 1.1rem 1.25rem;
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  border-bottom: 1px solid var(--gray-100);
+  vertical-align: middle;
+}
+
+.user-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.user-avatar-tag {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-name-bold {
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.linked-college-tag {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+}
+
+.text-muted {
+  color: var(--gray-400);
+}
+
+.btn-status-toggle {
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-active {
+  background-color: var(--success-50);
+  color: var(--success-700);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+}
+
+.btn-deactive {
+  background-color: var(--danger-50);
+  color: var(--danger-700);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.btn-delete-user {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  background-color: var(--gray-100);
+  color: var(--danger-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.btn-delete-user:hover {
+  background-color: var(--danger-50);
+  color: var(--danger-700);
+}
+
+.users-loading-view,
+.users-empty-view {
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

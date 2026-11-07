@@ -1,0 +1,259 @@
+.sub-management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sub-man-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.sub-man-sub {
+  font-size: 0.9375rem;
+  color: var(--gray-500);
+}
+
+.btn-add-saas-plan {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.btn-add-saas-plan:hover {
+  background: linear-gradient(135deg, var(--primary-700), var(--primary-800));
+}
+
+.saas-revenue-card {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  border-radius: var(--radius-xl);
+  padding: 2rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-md);
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.rev-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #93c5fd;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.rev-amount {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+.rev-sub {
+  font-size: 0.875rem;
+  color: #cbd5e1;
+}
+
+.rev-counter-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 2rem;
+  text-align: center;
+}
+
+.rev-counter-val {
+  font-size: 2rem;
+  font-weight: 800;
+  display: block;
+}
+
+.rev-counter-lbl {
+  font-size: 0.75rem;
+  color: #cbd5e1;
+}
+
+.plans-management-card,
+.subscriptions-ledger-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+}
+
+.section-title-wrap {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.section-sub {
+  font-size: 0.8125rem;
+  color: var(--gray-500);
+}
+
+.superadmin-plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.superadmin-plan-item {
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  background-color: var(--gray-50);
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.plan-item-name {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--gray-900);
+}
+
+.plan-code-badge {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  background-color: var(--primary-100);
+  color: var(--primary-800);
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.plan-item-price {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.plan-item-price span {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+.plan-item-desc {
+  font-size: 0.8125rem;
+  color: var(--gray-600);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  min-height: 36px;
+}
+
+.plan-allowances {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  color: var(--gray-700);
+  margin-bottom: 1.25rem;
+  padding: 0.75rem;
+  background-color: #ffffff;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gray-200);
+}
+
+.btn-edit-plan {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.65rem;
+  border-radius: var(--radius-md);
+  background-color: #ffffff;
+  border: 1px solid var(--gray-300);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--gray-800);
+  transition: all 0.15s ease;
+}
+
+.btn-edit-plan:hover {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+  border-color: var(--primary-300);
+}
+
+/* Ledger Table */
+.ledger-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.ledger-table th {
+  background-color: var(--gray-50);
+  padding: 0.85rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gray-500);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.ledger-table td {
+  padding: 1.1rem 1.25rem;
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.plan-pill {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.8125rem;
+}
+
+.btn-save-plan-modal {
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+  color: #ffffff;
+  padding: 0.85rem;
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+

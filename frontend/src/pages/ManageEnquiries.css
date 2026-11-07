@@ -1,0 +1,217 @@
+.enquiries-manager-header {
+  margin-bottom: 1.5rem;
+}
+
+.enquiries-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.enquiries-subtitle {
+  font-size: 0.9375rem;
+  color: var(--gray-500);
+}
+
+.enquiry-filter-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+}
+
+.enquiry-tab-pill {
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-full);
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--gray-600);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.enquiry-tab-pill:hover {
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+}
+
+.tab-pill-active {
+  background-color: var(--primary-600);
+  color: #ffffff;
+  border-color: var(--primary-600);
+}
+
+.tab-pill-active:hover {
+  background-color: var(--primary-700);
+  color: #ffffff;
+}
+
+.enquiries-card-wrap {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.enquiries-table-responsive {
+  overflow-x: auto;
+}
+
+.enquiries-admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.enquiries-admin-table th {
+  background-color: var(--gray-50);
+  padding: 0.85rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gray-500);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.enquiries-admin-table td {
+  padding: 1.1rem 1.25rem;
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  border-bottom: 1px solid var(--gray-100);
+  vertical-align: middle;
+}
+
+.student-name-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-name {
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.s-msg-snippet {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.student-contact-col {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8125rem;
+}
+
+.phone-text {
+  color: var(--gray-500);
+  font-size: 0.75rem;
+}
+
+.rank-tag {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.btn-respond-action {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+  border: 1px solid var(--primary-200);
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius-md);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.btn-respond-action:hover {
+  background-color: var(--primary-600);
+  color: #ffffff;
+  border-color: var(--primary-600);
+}
+
+/* Modal Form */
+.modal-respond-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.enquiry-preview-box {
+  background-color: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.preview-message-block {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.preview-msg-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-500);
+  text-transform: uppercase;
+}
+
+.preview-msg-text {
+  font-size: 0.875rem;
+  color: var(--gray-900);
+  margin-top: 0.2rem;
+}
+
+.note-hint {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+  margin-top: 0.25rem;
+}
+
+.btn-save-response {
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-700));
+  color: #ffffff;
+  padding: 0.85rem;
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  transition: opacity 0.15s ease;
+}
+
+.btn-save-response:disabled {
+  opacity: 0.65;
+}
+
+.enquiries-loading-state,
+.enquiries-empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-icon {
+  color: var(--gray-300);
+  margin-bottom: 1rem;
+}
+

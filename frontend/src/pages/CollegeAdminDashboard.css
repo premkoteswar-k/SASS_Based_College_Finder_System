@@ -1,0 +1,316 @@
+.college-header-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.college-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.college-code-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--primary-600), var(--primary-800));
+  color: #ffffff;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.25);
+  flex-shrink: 0;
+}
+
+.college-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+
+.college-admin-name {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--gray-900);
+}
+
+.college-admin-sub {
+  font-size: 0.8125rem;
+  color: var(--gray-500);
+}
+
+.college-header-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.btn-edit-profile-top {
+  background-color: var(--primary-600);
+  color: #ffffff;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+
+.btn-edit-profile-top:hover {
+  background-color: var(--primary-700);
+}
+
+.btn-view-public {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: var(--gray-100);
+  color: var(--gray-700);
+  padding: 0.65rem 1.15rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.btn-view-public:hover {
+  background-color: var(--gray-200);
+  color: var(--gray-900);
+}
+
+/* Subscription Banner */
+.subscription-notice-banner {
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+  border: 1px solid #86efac;
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sub-notice-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sub-award-icon {
+  color: var(--success-700);
+}
+
+.sub-tag {
+  font-size: 0.8125rem;
+  font-weight: 800;
+  color: var(--success-700);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.sub-desc {
+  font-size: 0.875rem;
+  color: #166534;
+}
+
+.btn-upgrade-plan {
+  background-color: var(--success-700);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  padding: 0.55rem 1.15rem;
+  border-radius: var(--radius-md);
+  transition: background-color 0.15s ease;
+}
+
+.btn-upgrade-plan:hover {
+  background-color: #14532d;
+}
+
+/* Admin KPIs */
+.admin-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Quick Action Shortcuts */
+.quick-action-shortcuts-strip {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.shortcuts-title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gray-500);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.85rem;
+}
+
+.shortcuts-buttons-row {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.shortcut-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.15rem;
+  border-radius: var(--radius-md);
+  background-color: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  color: var(--gray-700);
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.shortcut-btn:hover {
+  background-color: var(--primary-50);
+  border-color: var(--primary-300);
+  color: var(--primary-700);
+}
+
+/* Admin Table */
+.admin-section-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.section-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.section-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.25rem;
+}
+
+.section-card-sub {
+  font-size: 0.8125rem;
+  color: var(--gray-500);
+}
+
+.section-view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary-600);
+}
+
+.admin-table-wrap {
+  overflow-x: auto;
+}
+
+.admin-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.admin-data-table th {
+  background-color: var(--gray-50);
+  padding: 0.85rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gray-500);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.admin-data-table td {
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  border-bottom: 1px solid var(--gray-100);
+  vertical-align: middle;
+}
+
+.font-bold {
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.contact-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-sub {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+}
+
+.btn-respond-link {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-600);
+  background-color: var(--primary-50);
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: all 0.15s ease;
+}
+
+.btn-respond-link:hover {
+  background-color: var(--primary-600);
+  color: #ffffff;
+}
+
+.empty-table-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--gray-500);
+}
+
+.empty-mail-icon {
+  color: var(--gray-300);
+  margin-bottom: 0.75rem;
+}
+
+.admin-loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
